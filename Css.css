@@ -127,6 +127,7 @@ head{
   box-sizing: border-box;
   justify-content: space-between;
   align-items: flex-start;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
 }
 
 .descripcion-juego h3 {
@@ -211,4 +212,5 @@ h5 {
   max-width: 350px;
   display: block;
   border-radius: 10px;
+
 }
