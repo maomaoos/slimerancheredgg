@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.style.display =
+      menu.style.display === "block" ? "none" : "block";
+  }
+</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="mision.css">
+    <title>Slime Rancher EDGG</title>
+</head>
+
+<body>
+    <header class="navbar">
+  <div class="nav-content">
+    <img src="img/icono.png" alt="logo" class="logo">
+    <h1 class="titulo">Unidad Educativa Dr. Eduardo Granja Garces</h1>
+  </div>
+ <div class="menu-btn" onclick="toggleMenu()">
+  ☰
+</div>
+<nav class="menu" id="menu">
+  <a href="inicio.html">Inicio</a>
+  <a href="acerca.html">Acerca de</a>
+  <a href="mision.html">Misión y Visión</a>
+  <a href="producto.html">Productos o Servicios</a>
+  <a href="contacto.html">Contacto</a>
+</nav>
+</header>
+  <div class="content-header">
+        <img src="img/portada3.jpg" alt="">
+</div>
+
+<div class="descripcion-juego">
+  <div class="contenedor">
+    <div class="text-inicio">
+    <section id="inicio" class="seccion">
+  <h4>Misión y Visión</h3>
+  <div class="contenedor">
+  <div class="contenedor2">
+  <p>
+    <strong>Misión:</strong> <br>
+Ofrecer una experiencia de ocio con el juego que fomente la diversión, la exploración, la creatividad y la gestión de los recursos en un entorno colorido y amigable.
+  </p>
+  </div>
+  <div class="contenedor3">
+  <p>
+    <strong>Visión:</strong> <br>
+    Insertarse de manera decidida en el mercado como un videojuego innovador dado el elevado contenido lúdico que presenta, su originalidad, un diseño visual atractivo y un nivel de jugabilidad accesible para diversos tipos de jugadores.
+  </p>
+  </section>
+  <div class="img-inicio">
+ <img src="img/texto1.jpg" alt="">
+ </div>
+  </div>
+</div>
+</body>
+</html>
